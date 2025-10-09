@@ -1,7 +1,4 @@
 # Multi-Operator Free-Floating Trip Destination Prediction in Public Mobility Sharing Systems
-Daniel Kerger, Heiner Stuckenschmidt
-
-Data and Web Science Group, University of Mannheim, B 6, 26, Mannheim, 68159, Baden-Württemberg, Germany
 
 ## Abstract
 Public mobility sharing systems are an important component of sustainable transport, particularly for last-mile travel. However, analysing trip patterns using open standards can be challenging due to vehicles frequently being assigned new identifiers, preventing tracking. To overcome this limitation, we present a machine learning pipeline that predicts trip destinations—making it possible to recover travel patterns.
