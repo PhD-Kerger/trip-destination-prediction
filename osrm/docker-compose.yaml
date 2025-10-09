@@ -1,0 +1,16 @@
+services:
+  osrm:
+    build:
+      context: .
+      dockerfile: osrm/Dockerfile
+    container_name: osrm
+    environment:
+      - OSRM_NAME=baden-wuerttemberg-latest
+    volumes:
+      - ./data/osrm:/data:rw
+    ports:
+      - "5000:5000"
+    deploy:
+      resources:
+        limits:
+          memory: 2g

@@ -10,5 +10,12 @@ These results demonstrate the feasibility of accurately predicting destinations 
 ## Usage
 This repository contains the needed code to execute the pipeline used in our paper with a subset of the datasets from the city of Heidelberg. To run the notebook, install all dependencies listed in the requirements.txt file with Python 3.10. All results are displayed in the notebook output cells.
 
+## OSRM Setup
+To run the notebook, you need to have an OSRM backend running with cartographic data for the city you are using. Data for Heidelberg can be downloaded from [Geofabrik](https://download.geofabrik.de/europe/germany/baden-wuerttemberg.html). After downloading the data, you can set up OSRM by following the instructions on the [OSRM GitHub page](https://github.com/Project-OSRM/osrm-backend). We have added a docker-compose file to facilitate the setup process. You can start the OSRM service by running
+```bash
+docker-compose up -d
+```
+in the directory containing the docker-compose.yml file.
+
 ## Data Usage Restrictions
 The dataset included in this repository is intended solely for use within the scope of reproducing the experiments described in our paper. It may not be used for other scenarios or purposes without explicit permission from the authors.
