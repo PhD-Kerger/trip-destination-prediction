@@ -23,3 +23,19 @@ in the directory containing the docker-compose.yml file.
 
 ## Data Usage Restrictions
 The dataset included in this repository is intended solely for use within the scope of reproducing the experiments described in our paper. It may not be used for other scenarios or purposes without explicit permission from the authors.
+
+## Citation
+
+```bibtex
+@article{KERGER2026100105,
+  title = {Multi-operator free-floating GBFS trip destination prediction in public mobility sharing systems},
+  journal = {Journal of Cycling and Micromobility Research},
+  volume = {7},
+  pages = {100105},
+  year = {2026},
+  issn = {2950-1059},
+  doi = {https://doi.org/10.1016/j.jcmr.2025.100105},
+  url = {https://www.sciencedirect.com/science/article/pii/S295010592500049X},
+  author = {Daniel Kerger and Heiner Stuckenschmidt},
+}
+```
