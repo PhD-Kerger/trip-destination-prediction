@@ -7,3 +7,5 @@ scikit-learn
 ipykernel
 xgboost
 requests
+PyYAML
+optuna

@@ -1,0 +1,5 @@
+name: Heidelberg
+ml: heidelberg
+osrm:
+  enabled: true
+  alternative_percentage: 10

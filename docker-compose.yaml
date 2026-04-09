@@ -1,0 +1,17 @@
+services:
+  trip-destination-prediction:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: trip-destination-prediction
+    volumes:
+      - ./main.py:/app/main.py
+      - ./config.yaml:/app/config.yaml
+      - ./data:/app/data
+      - ./ml:/app/ml
+    networks:
+      - mobility-network
+
+networks:
+  mobility-network:
+    external: true

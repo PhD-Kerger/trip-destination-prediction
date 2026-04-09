@@ -1,0 +1,12 @@
+.git
+.gitignore
+.dockerignore
+docker-compose.yaml
+README.md
+*.ipynb
+__pycache__/
+*.py[cod]
+.env
+data/
+ml/
+osrm/
