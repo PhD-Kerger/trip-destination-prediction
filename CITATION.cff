@@ -1,20 +1,19 @@
 cff-version: 1.2.0
-message: "If you use this work, please cite it using the metadata below."
-title: "Trip Destination Prediction in Public Mobility Sharing Systems"
-
-type: article
-
+title: >-
+  Trip Destination Prediction in Public Mobility Sharing
+  Systems
+message: >-
+  If you use this work, please cite it using the metadata
+  below.
+type: software
 authors:
   - family-names: Kerger
     given-names: Daniel
   - family-names: Stuckenschmidt
     given-names: Heiner
-
-year: 2025
-
-doi: 10.1016/j.jcmr.2025.100105
-journal: "Journal of Cycling and Micromobility Research"
-publisher: "Elsevier"
-
-repository-code: "https://github.com/PhD-Kerger/trip-destination-prediction"
-url: "https://github.com/PhD-Kerger/trip-destination-prediction"
+identifiers:
+  - type: doi
+    value: 10.1016/j.jcmr.2025.100105
+url: 'https://github.com/PhD-Kerger/trip-destination-prediction'
+license: Apache-2.0
+version: 2.0.4
