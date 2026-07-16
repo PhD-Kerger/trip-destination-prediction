@@ -10,6 +10,7 @@ authors:
     given-names: Daniel
   - family-names: Stuckenschmidt
     given-names: Heiner
+type: article
 identifiers:
   - type: doi
     value: 10.1016/j.jcmr.2025.100105
