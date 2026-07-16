@@ -16,6 +16,7 @@ preferred-citation:
   title: Multi-operator free-floating GBFS trip destination prediction in public mobility sharing systems
   journal: "Journal of Cycling and Micromobility Research"
   year: 2025
+  volume: 7
   identifiers:
     - type: doi
       value: 10.1016/j.jcmr.2025.100105
